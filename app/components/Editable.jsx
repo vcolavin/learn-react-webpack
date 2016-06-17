@@ -8,12 +8,6 @@ export default ({editing, value, onEdit, ...props}) => {
   return <span {...props}>{value}</span>;
 }
 
-// const Edit = ({onEdit = () => {}, value, ...props}) => (
-//   <div onClick={onEdit} {...props}>
-//     <span>edit: {value}</span>
-//   </div>
-// );
-
 class Edit extends React.Component {
   render() {
     const {value, ...props} = this.props;
