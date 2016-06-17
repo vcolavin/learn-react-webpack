@@ -17,6 +17,8 @@ const PATHS = {
 
 process.env.BABEL_ENV = TARGET;
 
+const publicName = 'learn-react-webpack';
+
 const common = merge(
   {
     // Entry accepts a path or an object of entries.
